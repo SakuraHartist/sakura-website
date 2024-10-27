@@ -1,0 +1,71 @@
+<!-- src/cv.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV - Sakura Hochegger</title>
+    <!-- Google Fonts: Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Compiled Tailwind CSS -->
+    <link href="../build/styles.css" rel="stylesheet">
+</head>
+
+<body class="bg-white min-h-screen flex flex-col items-center p-8">
+
+    <!-- Main Content Wrapper for Centering -->
+    <div class="w-full max-w-5xl flex flex-col items-end relative">
+
+        <!-- Main Heading (Back Link) -->
+        <h1 class="font-heading font-bold 
+                 text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
+                 text-gray-800 
+                 mb-8 
+                 transition-transform duration-500 hover:scale-105">
+            <a href="index.html" class="text-gray-800 hover:text-gray-500 cursor-pointer transition-colors duration-300"
+                aria-label="Back to Home">
+                Sakura Hochegger
+            </a>
+        </h1>
+
+        <!-- Artist Image (Positioned on the Right) -->
+        <img src="../assets/images/personal/IMG_5653.jpeg" alt="Artist Portrait"
+             class="absolute top-24 right-0 w-32 h-auto rounded-lg shadow-md">
+
+        <!-- CV Content -->
+        <div class="w-3/4 mt-12 text-gray-800 text-base font-normal leading-relaxed">
+            <!-- Personal Information -->
+            <section class="mb-8">
+                <p><strong>Born:</strong> Kyoto, Japan</p>
+                <p><strong>Location:</strong> Live and work in Brighton, UK</p>
+            </section>
+
+            <!-- Education -->
+            <section class="mb-8">
+                <h3 class="text-xl font-semibold">Education</h3>
+                <p><strong>Diploma in Art and Design</strong> - Norwich University of the Arts</p>
+                <p><strong>BA (Hons) Fashion Design (2:1)</strong> - Central Saint Martins College of Art</p>
+                <p><strong>MA Fine Art (Distinction)</strong> - University of Brighton</p>
+            </section>
+
+            <!-- Exhibitions -->
+            <section class="mb-8">
+                <h3 class="text-xl font-semibold">Exhibitions</h3>
+                <ul class="list-disc ml-6">
+                    <li><strong>Open House Exhibition</strong> - Hidden House, Brighton, 2022</li>
+                    <li><strong>MA Fine Art Show</strong> - University of Brighton, 2019</li>
+                    <li><strong>128 Exhibition</strong> - University of Brighton, 2019</li>
+                    <li><strong>128 Exhibition</strong> - University of Brighton, 2018</li>
+                    <li><strong>MA & Other Postgraduate Show</strong> - Atkinson Gallery, Millfield, 2018</li>
+                    <li><strong>128 Exhibition</strong> - University of Brighton, 2017</li>
+                </ul>
+            </section>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
