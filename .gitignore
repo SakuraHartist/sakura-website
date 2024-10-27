@@ -32,8 +32,7 @@ node_modules/
 # Build Outputs
 # ---------------------------
 
-# Compiled CSS and other build outputs
-build/
+
 
 # If you have a dist directory for other build artifacts
 dist/
