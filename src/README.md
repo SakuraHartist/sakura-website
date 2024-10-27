@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a simple, responsive static website built using Tailwind CSS. 
+This project is a simple, responsive static website built using Tailwind CSS.
 
 Table of Contents
 
@@ -21,7 +21,11 @@ Table of Contents
 
 ## Demo
 
-[View Live Demo](https://your-username.github.io/sakura-website/)
+[View Live Demo](https://sakurahochegger.com)
+
+## Contributors
+
+Helfrid Hochegger, Sakura Hochegger
 
 ## Features
 
@@ -44,7 +48,43 @@ Table of Contents
 
 - **Node.js and npm:** Ensure you have Node.js installed. You can download it from [Node.js Official Website](https://nodejs.org/).
 
-  ```bash
   node -v
   npm -v
-  ```
+
+
+### Steps
+
+**	**1.**	** **Clone the Repository** :
+
+git clone https://github.com/sakuraHartist/sakura-website.git
+
+	** 2.	Navigate into the Project Directory: **
+
+  ** 3.	Install Dependencies: **
+
+  npm install
+
+## Usage
+
+After installation, you can run the development server to view the website locally and make adjustments.
+
+## Development Server
+
+To start the local development server and automatically recompile Tailwind CSS as you make changes:
+npx tailwindcss -o build/styles.css --watch
+
+## License
+
+This project is open-source and available under the MIT License.
+
+## Contact
+
+Sakura Hochegger
+Email: sakurahochegger@icloud.com
+Instagram: @sakura_h_studio
+
+## Acknowledgments
+
+	•	Tailwind CSS Documentation for styling guidance.
+	•	GitHub Pages Documentation for hosting instructions.
+  
