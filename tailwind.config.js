@@ -1,11 +1,13 @@
 // tailwind.config.js
 module.exports = {
-  content: ["./src/**/*.{html,css}"], // Adjust paths as needed
+  content: [
+    "./index.html",           // Include index.html in the root
+    "./src/**/*.{html,css}"    // Include all HTML and CSS files in the src directory
+  ],
   theme: {
     extend: {
       backgroundImage: {
         'full-background': "url('../assets/images/backgrounds/childhood_fear.jpg')",
-        // Add more custom backgrounds here if needed
       },
       backgroundSize: {
         'cover': 'cover',
@@ -15,13 +17,12 @@ module.exports = {
         'center': 'center',
         'top': 'top',
         'bottom': 'bottom',
-        // Add more positions if needed
       },
       fontFamily: {
-        heading: ['Montserrat', 'sans-serif'], // Custom font family for headings
+        heading: ['Montserrat', 'sans-serif'],
       },
       colors: {
-        'dark-green': '#006400', // Custom dark green color
+        'dark-green': '#006400',
       },
     },
   },
